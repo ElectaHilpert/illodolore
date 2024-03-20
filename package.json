@@ -1,0 +1,64 @@
+{
+  "name": "illodolore",
+  "version": "1.0.0",
+  "description": "Create an inline source map comment from a source map",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElectaHilpert/illodolore.git"
+  },
+  "author": "NyasiaLehner",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shinnn/inline-source-map-comment/blob/master/LICENSE"
+    }
+  ],
+  "main": "inline-source-map-comment-node.js",
+  "bin": "cli.js",
+  "files": [
+    "cli.js",
+    "inline-source-map-comment-node.js",
+    "LICENSE"
+  ],
+  "keywords": [
+    "beatae",
+    "sourcemap",
+    "voluptas",
+    "map",
+    "comment",
+    "eum",
+    "css",
+    "minus",
+    "aliquam",
+    "client-side"
+  ],
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "get-stdin": "^3.0.2",
+    "minimist": "^1.1.0",
+    "sum-up": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^0.10.0",
+    "istanbul": "^0.3.2",
+    "istanbul-coveralls": "^1.0.1",
+    "jscs": "^1.8.1",
+    "tape": "^3.0.3",
+    "testling": "^1.7.1",
+    "xtend": "^4.0.0"
+  },
+  "jscsConfig": {
+    "preset": "google",
+    "maximumLineLength": null,
+    "excludeFiles": [
+      "{coverage,node_modules}/**"
+    ]
+  },
+  "testling": {
+    "files": [
+      "test/test-api/test-browser.js",
+      "test/test-api/test-browser-cjs.js"
+    ]
+  },
+  "homepage": "https://github.com/ElectaHilpert/illodolore.git"
+}
